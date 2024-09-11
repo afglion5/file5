@@ -26,7 +26,7 @@ except:
     open(pathx, 'w').write(myid)
 key1 = open(pathx, 'r').read()+str(os.getuid())
 
-try:https:
+try:
 	open('.prox.txt','w').write(requests.get('https://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/socks5.txt').text)
 except requests.exceptions.ConnectionError:
 	exit(' Network Is Too Slow ')
